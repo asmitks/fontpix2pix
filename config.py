@@ -1,10 +1,10 @@
 import torch
 import albumentations as A
-from albumentations.pytorch import ToTensorV2
+from albumentations.pytorch import ToTensor as ToTensorV2
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-TRAIN_DIR = "/kaggle/input/8japcol/data/train"
-VAL_DIR = "/kaggle/input/8japcol/data/val"
+TRAIN_DIR = "gdrive/MyDrive/Dataset_DL_Project/train"
+VAL_DIR = "gdrive/MyDrive/Dataset_DL_Project/val"
 LEARNING_RATE = 2e-4
 BATCH_SIZE = 16
 NUM_WORKERS = 2
