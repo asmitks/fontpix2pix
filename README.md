@@ -1,14 +1,14 @@
 # fontpix2pix
 
-add data/ 
 
-data/
-    train
-        A/
-        B/
+### A typical top-level directory layout
+
+    Data
+    ├── train                 
+        ├── A                    
+        ├── B                    
+    ├── test                   
+        ├── A                  
+        ├── B
         
-    val 
-       A/
-       B/
-         
-         
+        
